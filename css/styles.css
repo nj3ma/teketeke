@@ -1,0 +1,101 @@
+body{
+}
+header { 
+	border-bottom: 3px solid black;    
+	box-sizing: padding-box;    
+	padding: 10px;    
+	width:;  
+	margin-bottom: 21px; 
+	margin-top:1%;	/* 1.5em - px value to reduce rounding errors in IE */
+	line-height: 19px;  /* 1.3571em - px value to reduce rounding errors in IE */
+	text-align: center; font-size: 1.15Sem; 
+}
+#banner {
+	font-weight: bold; 
+	font-size: 1.6em;
+}
+*,
+*:before,
+*:after {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+  
+	box-sizing: border-box;
+
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  
+	display: block;
+
+}
+html,
+button,
+input,
+select,
+textarea {
+ 
+	font-family: sans-serif; 
+	color: #434343;
+
+}
+img.banner {
+	width: 30%; 
+	height: 49.5%; 
+	border: 10px #151515;}
+@media handheld, only screen and (max-width:768px) { 
+	img.banner {
+	width:20%;
+	height:15%
+	} 
+
+}
+
+#jumbotron{
+	width: 400px; height :25%;
+}
+footer{
+	text-align:center;
+	font-size: .75em; 
+	line-height: 1.5em; 
+	font-family: sans-serif;
+}
+li{
+	display:block; 
+	text-align:left; 
+	font-size: 0.75em; 
+	font-weight: bold; 
+	padding:2px;
+	margin-top: 2%;
+}
+nav{
+	display:inline; 
+	width: 100%; 
+	background-color:#434343; 
+	padding:1%;
+}
+.topnav{
+	color:#876371;
+	font-size:0.75em;
+	font-weight: bold;}
+hr.menu{
+	color:#ffffff;
+	width: 25px;
+}
+article{
+}
+#logo{
+	color:#876370;
+}

@@ -62,7 +62,17 @@ img.banner {
 	} 
 
 }
-
+.call {
+    color: white;
+    background-color:#876370;
+    padding:12px;
+    width:280px;
+    height:46px;
+    position: relative;
+    border: 3px;
+    border-radius:2px;
+    display: inline-block;
+}
 #jumbotron{
 	width: 400px; height :25%;
 }
@@ -99,3 +109,4 @@ article{
 #logo{
 	color:#876370;
 }
+

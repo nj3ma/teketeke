@@ -1,4 +1,4 @@
-body{
+body{font-family: 'Merriweather', serif, non-serif; 
 }
 header { 
 	border-bottom: 3px solid black;    
@@ -62,6 +62,22 @@ img.banner {
 	} 
 
 }
+
+
+.strong,
+strong {
+  font-family:'Open Sans Bold', sans-serif;
+  font-weight:normal;
+  }
+strong em,
+  em strong { font-family:'Open Sans Bold Italic', sans-serif; }
+
+address,
+em {
+  font-family:'Open Sans Italic', sans-serif;
+  }
+
+
 .call {
     font-size:14px;
     color: white;
@@ -74,6 +90,7 @@ img.banner {
     border-radius:2px;
     display: inline-block;
 }
+
 #jumbotron{
 	width: 400px; height :25%;
 }

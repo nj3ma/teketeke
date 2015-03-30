@@ -1,0 +1,9 @@
+#Ignore temporary files
+*.swap
+*.swap*
+*.swp
+*~
+#Ignore pictures
+*.jpg, *.jpeg
+#Ignore pix folder
+img

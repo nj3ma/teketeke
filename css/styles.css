@@ -53,13 +53,13 @@ textarea {
 
 }
 img.banner {
-	width: 30%; 
-	height: 49.5%; 
+	width: 60%; 
+	height: 69.5%; 
 	border: 10px #151515;}
 @media handheld, only screen and (max-width:768px) { 
 	img.banner {
-	width:20%;
-	height:15%
+	width:75%;
+	height:45%
 	} 
 
 }

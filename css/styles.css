@@ -1,20 +1,3 @@
-body{font-family: 'Merriweather', serif, non-serif;
-    background-colour:whitesmoke;
-}
-header { 
-	border-bottom: 3px solid black;    
-	box-sizing: padding-box;    
-	padding: 10px;    
-	width:;  
-	margin-bottom: 21px; 
-	margin-top:1%;	/* 1.5em - px value to reduce rounding errors in IE */
-	line-height: 19px;  /* 1.3571em - px value to reduce rounding errors in IE */
-	text-align: center; font-size: 1.15Sem; 
-}
-#banner {
-	font-weight: bold; 
-	font-size: 1.6em;
-}
 *,
 *:before,
 *:after {
@@ -42,6 +25,8 @@ summary {
 	display: block;
 
 }
+
+
 html,
 button,
 input,
@@ -51,6 +36,41 @@ textarea {
 	font-family: sans-serif; 
 	color: #434343;
 
+i}
+body{
+    font-family: 'Merriweather', serif, non-serif;
+    background-colour:whitesmoke;
+}
+div .container {
+text-align:center;
+width:100%;
+height:100%;
+}
+header{
+    height:100%;
+}
+nav{
+display: inline;
+}
+section { 
+    background-color:black;
+    color:
+	border-bottom: 3px;
+    solid black;    
+	box-sizing: padding-box;    
+	padding: 10px;    
+	width: 33%;
+    height:20%;
+	margin-bottom: 21px; 
+	margin-top:5%;	/
+	text-align: center; 
+    font-size: 1.15Sem; 
+    position:relative ;
+}
+
+#banner {
+	font-weight: bold; 
+	font-size: 1.6em;
 }
 img.banner {
 	width: 60%; 
@@ -84,16 +104,12 @@ em {
     color: white;
     background-color:#876370;
     padding:12px;
-    width:280px;
-    height:46px;
+    width:20%;
+    height:30%;
     position: relative;
     border: 3px;
     border-radius:2px;
     display: inline-block;
-}
-
-#jumbotron{
-	width: 400px; height :25%;
 }
 footer{
 	text-align:center;
@@ -131,3 +147,52 @@ font-weight: bold;
 font-size: 1.5em;
 quotes: "\201C" "\201D" "\2018" "\2019";
 }
+.module {
+background: 
+linear-gradient(
+rgba(0, 0, 0, 0.6),
+rgba(0, 0, 0, 0.6)
+),
+url('img/whiteroses.jpg');
+background-size: cover;
+width: 100%;
+height: 100%;
+.cap p {
+padding: 20px;
+color: white;
+  padding: 20px;
+margin: 0;
+}
+margin: 10px 0 0 10px;
+position: relative;
+float: left;
+}
+.mid h2 {
+font-weight: 900;
+color: white;
+text-transform: uppercase;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+font-size: 2rem;
+transform: translate(-50%, -50%);
+}
+
+.red {
+background-image: 
+linear-gradient(
+rgba(255, 0, 0, 0.5),
+rgba(255, 0, 0, 0.5)
+  ),
+url("../img/whiteroses.jpg");
+}
+
+
+
+
+
+
+
+
+

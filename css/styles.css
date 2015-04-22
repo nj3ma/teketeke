@@ -54,8 +54,7 @@ display: inline;
 }
 section { 
     background-color:black;
-    color:
-	border-bottom: 3px;
+    color: Rhiteborder-bottom: 3px;
     solid black;    
 	box-sizing: padding-box;    
 	padding: 10px;    
@@ -189,10 +188,20 @@ url("../img/whiteroses.jpg");
 }
 
 
+.clearleft {
+clear: left !important;
+}
 
+.col{
+float: left;
+margin-right: 3.8%;
+position: relative;
+width: 30.8%;
+}
 
-
-
+.text-center{
+text-align: center;
+}
 
 
 

@@ -98,22 +98,12 @@ em {
   }
 
 
-.call {
-    font-size:14px;
-    color: white;
-    background-color:#876370;
-    padding:12px;
-    width:20%;
-    height:30%;
-    position: relative;
-    border: 3px;
-    border-radius:2px;
-    display: inline-block;
-}
 footer{
 	text-align:center;
 	font-size: .75em; 
 	line-height: 1.5em; 
+    margin-top: 5%;
+    padding: 1%;
 }
 li{
 	display:block; 
@@ -201,6 +191,5 @@ width: 30.8%;
 .text-center{
 text-align: center;
 }
-
 
 

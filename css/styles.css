@@ -98,18 +98,6 @@ em {
   }
 
 
-.call {
-    font-size:14px;
-    color: white;
-    background-color:#876370;
-    padding:12px;
-    width:20%;
-    height:30%;
-    position: relative;
-    border: 3px;
-    border-radius:2px;
-    display: inline-block;
-}
 footer{
 	text-align:center;
 	font-size: .75em; 
@@ -121,28 +109,6 @@ li{
 	font-weight: bold; 
 	padding:2px;
 	margin-top: 2%;
-}
-nav{
-	display:inline; 
-	width: 100%; 
-	background-color:#434343; 
-	padding:1%;
-}
-.topnav{
-	color:#876371;
-	font-size:0.75em;
-	font-weight: bold;}
-hr.menu{
-	color:#ffffff;
-	width: 25px;
-}
-#logo{
-	color:#876370;
-}
-blockquote {
-font-weight: bold;
-font-size: 1.5em;
-quotes: "\201C" "\201D" "\2018" "\2019";
 }
 .module {
     background: 

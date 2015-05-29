@@ -42,15 +42,15 @@ body{
     background-colour:whitesmoke;
 }
 div .container {
-text-align:center;
-width:100%;
-height:100%;
+    text-align:center;
+    width:100%;
+    height:100%;
 }
 header{
     height:100%;
 }
 nav{
-display: inline;
+    display: inline;
 }
 section { 
     background-color:black;
@@ -136,8 +136,6 @@ hr.menu{
 	color:#ffffff;
 	width: 25px;
 }
-article{
-}
 #logo{
 	color:#876370;
 }
@@ -147,44 +145,44 @@ font-size: 1.5em;
 quotes: "\201C" "\201D" "\2018" "\2019";
 }
 .module {
-background: 
-linear-gradient(
-rgba(0, 0, 0, 0.6),
-rgba(0, 0, 0, 0.6)
-),
-url('img/whiteroses.jpg');
-background-size: cover;
-width: 100%;
-height: 100%;
-.cap p {
-padding: 20px;
-color: white;
-  padding: 20px;
-margin: 0;
-}
-margin: 10px 0 0 10px;
-position: relative;
-float: left;
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+    ),
+    url('img/whiteroses.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+        .cap p {
+        padding: 20px;
+        color: white;
+        padding: 20px;
+        margin: 0;
+    }
+    margin: 10px 0 0 10px;
+    position: relative;
+    float: left;
 }
 .mid h2 {
-font-weight: 900;
-color: white;
-text-transform: uppercase;
-margin: 0;
-position: absolute;
-top: 50%;
-left: 50%;
-font-size: 2rem;
-transform: translate(-50%, -50%);
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
 }
 
 .red {
 background-image: 
-linear-gradient(
-rgba(255, 0, 0, 0.5),
-rgba(255, 0, 0, 0.5)
-  ),
-url("../img/whiteroses.jpg");
+    linear-gradient(
+    rgba(255, 0, 0, 0.5),
+    rgba(255, 0, 0, 0.5)
+      ),
+    url("../img/whiteroses.jpg");
 }
 
 
@@ -192,12 +190,6 @@ url("../img/whiteroses.jpg");
 clear: left !important;
 }
 
-.col{
-float: left;
-margin-right: 3.8%;
-position: relative;
-width: 30.8%;
-}
 
 .text-center{
 text-align: center;

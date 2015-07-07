@@ -61,7 +61,8 @@ div.col{
         }
 }
 div.order{
-    background-color: rgba(231, 75, 59, 0.9);
+    color:#000;
+    background-color: rgba(0, 128, 128, 0.9);
 }
 .deliver{
     background-color: rgba(24, 62, 70, 0.9);

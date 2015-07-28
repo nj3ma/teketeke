@@ -176,7 +176,7 @@ a {
     color: #774849;
 }
 
-button {
+button, .button  {
     background-clip: padding-box;
     background-color: #E74B3B;
     background-image: none;

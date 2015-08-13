@@ -3,6 +3,7 @@
 *.swap*
 *.swp
 *~
+*.sw*
 #Ignore pictures
 *.jpg, *.jpeg
 #Ignore pix folder

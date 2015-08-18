@@ -9,51 +9,126 @@
         <meta name="st:info" content="site">
         <meta name="description" content="Teke Teke. The safe, fast, reliable online delivery app. Stuff you need. Delivered. Fast">
         <meta name="description" content="Teke Teke. Beautiful, fresh flowers delivered anywhere within Nairobi">
+
+<!--CSS -->
+	<link rel ="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/styles.css" type="text/css" >
+	<link rel ="stylesheet" href="css/materialize.css" type="text/css">
+	<link rel ="stylesheet" href="css/font-awesome.min.css" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 	</head>
     <body>
-    <div class ="container">   
-        <header>
-	    <div class "press">
+ 
+<!--Hero-->
+	 <header>
+	    <!--Hero--> 
+	<div class="section no-pad-bot" id="index-banner"> 
+	    <div class="container"> 
+		<h1 class="text_h center header cd-headline letters type"> 
+		    <span> Teke Teke</span>  
+		    <span class="cd-words-wrapper waiting"> 
+			<b class="is-visible"> Stuff You Need.</b> 
+			<b>Delivered</b> 
+			<b>Fast</b> 
+		    </span> 
+		</h1> 
+	    </div> 
+	</div> 
+
+	 <!--   <div class = "press">
 		<p> As seen in the <a href="">Daily Nation</a></p> 
-	    </div>
-            <div class="module mid red">
-                    <h2> get the stuff you need </br> delivered to you.<br/> fast.</h2>
-                    <a class= "button" href='tel:0733665577'> Order Now  </a> </button>
-            </div>
+	    </div> -->
         </header>
-            <div class="col order">
+<!-- Pre Loader -->
+	<div id="loader-wrapper">
+	    <div id="loader"></div>
+	 
+	    <div class="loader-section section-left"></div>
+	    <div class="loader-section section-right"></div>
+	 
+	</div>
+
+	
+            <div class="row order">
                 <p> Need something delivered? </p>
                 <button type="submit" id="send_package" class="home">  tuma teketeke </button>
             </div>
-            <div class="col deliver">
+            <div class="row deliver">
              <p> Get paid to deliver packages</p>
                 <button type="submit" id="deliver_package" class="home_buttons"> sign up </button>
                 </div>
-       <!-- <div id="twitter_social">
-            <a class="twitter-follow-button"
+	<!--Intro and service--> 
+<div id="intro" class="section scrollspy"> 
+    <div class="container"> 
+        <div class="row"> 
+            <div  class="col s12"> 
+                <h2 class="center header text_h2"> Need something? <span class="span_h2">Tuma Teke Teke </span> </h2> 
+            </div> 
+ 
+            <div  class="col s12 m4 l4"> 
+                <div class="center promo promo-example"> 
+                    <i class="mdi-image-flash-on"></i> 
+                    <h5 class="promo-caption">Speed </h5> 
+                    <p class="light center"> Get stuff you need delivered to you. Fast.</p> 
+                </div> 
+            </div> 
+            <div class="col s12 m4 l4"> 
+                <div class="center promo promo-example"> 
+                    <i class="mdi-social-group"></i> 
+                    <h5 class="promo-caption">Social</h5> 
+                    <p class="light center"> Share deliveries with friends</p> 
+                </div> 
+            </div> 
+            <div class="col s12 m4 l4"> 
+                <div class="center promo promo-example"> 
+                    <i class="mdi-hardware-desktop-windows"></i> 
+                    <h5 class="promo-caption">Online</h5> 
+                    <p class="light center"> We are always online. Order at anytime, track your deliveries in real time  or get help with your delivery</p> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</div>
+
+<!--Twitter Button-->
+
+        <div class="row2  social" id="twitter_social">
+            <a class="center twitter-follow-button"
                   href="https://twitter.com/tumateketeke"
                     data-show-count="false"
                       data-lang="en">
                       Follow @tumateketeke
                 </a>
 
-                  <script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
             </div>
             <footer> 
-                    &copy; 2015 teketeke technologies. <br/> 
+                    &copy; 2015 teketeke services. <br/> 
                     <address>
-                        <strong> Teke Teke Technologies </strong><br/>
+                        <strong> Teke Teke Services </strong><br/>
                         Limuru Road <br/>
-                        <a href="tel:+254722991918"> tel no: (+254) 722 991918 </a>
+                        <a href="tel:+254722991918"> (+254 )722 991918 </a>
                         <br/>
                         <a href="mailto:#"> teketekehq@gmail.com</a>
                     </address>
                     <p> Built with love in Nairobi, Kenya</p>
             </footer>
-            -->
-    </div>
+ 
+<!--  Scripts--> 
+    
+   <script>
+	window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],
+	t=window.twttr||{};
+	if(d.getElementById(id))return t;
+	js=d.createElement(s);
+	js.id=id;
+	js.src="https://platform.twitter.com/widgets.js";
+	fjs.parentNode.insertBefore(js,fjs);t._e=[];
+	t.ready=function(f){t._e.push(f);};
+	return t;}
+	(document,"script","twitter-wjs"));
+    </script>
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
 
 </body>
 </html>

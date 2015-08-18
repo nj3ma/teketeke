@@ -2,11 +2,8 @@
 *,
 *:before,
 *:after {
-
 	-webkit-box-sizing: border-box;
-
 	-moz-box-sizing: border-box;
- i 
 	box-sizing: border-box;
 
 }
@@ -22,27 +19,32 @@ main,
 nav,
 section,
 summary {
-  
 	display: block;
-
 }
-
-
 html,
 button,
 input,
 select,
 textarea {
-
 	font-family: sans-serif; 
 	color: #434343;
 }
 /* Resets end here*/
 body{
-    font-family: 'Merriweather', serif, non-serif;
+    font-family: 'Raleway', sans-serif, non-serif;
     background-colour:whitesmoke;
     margin:0 0 0 0;
     padding: 0;
+}
+header{
+background:#2196F3;
+}
+a{
+ color: #E65100;
+ text-decoration:none
+}
+center{
+text-align: center;
 }
 div .container {
     text-align:center;
@@ -50,7 +52,7 @@ div .container {
     height:100%;
     margin: 0%;
 }
-div.col{
+.row{
     background: scroll border-box none padding-box 0% 0% repeat auto auto;
     box-sizing: border-box;
     font-family: "Raleway",sans-serif;
@@ -58,26 +60,29 @@ div.col{
     font-weight: 300;
     /*position: absolute;*/
     width: 99.99%;
-    color:#fff;
+    color:#333;
         p{
         text-align:center;
         }
 }
 div.order{
+    text-align: center;
+    padding-top: 5%;
     color:#000;
     background-color: rgba(255, , 255, 255, 0.9);
 }
 .deliver{
+    text-align: center;	
+    padding-top: 5%;
+    color: #fff;
     background-color: #767777;
-    right: 0px;
 }
-header{
-    height:90%;
-    width:100%;
-}
-
 nav{
     display: inline;
+}
+
+strong{
+font-weight:300;
 }
 
 #banner {
@@ -100,16 +105,21 @@ strong {
   font-family:'Open Sans Bold', sans-serif;
   font-weight:normal;
   }
-strong em,
-  em strong { font-family:'Open Sans Bold Italic', sans-serif; }
 
-address,
+address{
+}
 em {
   font-family:'Open Sans Italic', sans-serif;
   }
 
+.orange-darken-4
+{
+	background:#e65100;
+}
+
 
 footer{
+	padding: 5%;
 	text-align:center;
 	font-size: .75em; 
 	line-height: 1.5em; 
@@ -154,7 +164,7 @@ li{
 }
 
 .red {
-background-image: 
+    background-image: 
     linear-gradient(
     rgba(255, 0, 0, 0.5),
     rgba(255, 0, 0, 0.5)
@@ -177,6 +187,7 @@ a {
 }
 
 button, .button  {
+    text-align: center;
     background-clip: padding-box;
     background-color: #E74B3B;
     background-image: none;
